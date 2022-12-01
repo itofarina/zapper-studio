@@ -10,6 +10,7 @@ export const EXACTLY_DEFINITION = appDefinition({
     'Exactly is a decentralized, non-custodial and open-source protocol that provides an autonomous fixed and variable interest rate market enabling users to frictionlessly exchange the time value of their assets and completing the DeFi credit market.',
   url: 'https://app.exact.ly',
 
+  // TODO: organize groups & tabs
   groups: {
     deposit: {
       id: 'deposit',

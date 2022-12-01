@@ -94,6 +94,7 @@ export class EthereumTokemakBalanceFetcher implements BalanceFetcher {
     return data;
   }
 
+  // .ito - look at this and see how we can adapt
   async getClaimableBalances(address: string) {
     const multicall = this.appToolkit.getMulticall(network);
     const payload = await this.getClaimableBalanceData(address);
